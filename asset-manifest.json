@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/The-RickMorty-Characters/static/css/main.882486da.css",
+    "main.js": "/The-RickMorty-Characters/static/js/main.455940df.js",
+    "index.html": "/The-RickMorty-Characters/index.html",
+    "main.882486da.css.map": "/The-RickMorty-Characters/static/css/main.882486da.css.map",
+    "main.455940df.js.map": "/The-RickMorty-Characters/static/js/main.455940df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.882486da.css",
+    "static/js/main.455940df.js"
+  ]
+}
