@@ -1,70 +1,93 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# The Ricky & Morty Characters
 
-## Available Scripts
+This app will generate watchtime and view for youtube video.
 
-In the project directory, you can run:
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ https://farazabir.github.io/The-RickMorty-Characters/
+ 
+##[Logo] 
+![image](https://user-images.githubusercontent.com/62275863/188630367-9e05c6f8-410b-49ef-a95b-8ec9fa07a96f.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+![image](https://user-images.githubusercontent.com/62275863/188630577-2e889b4a-3fca-489c-ad43-74b61b983daf.png)
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install my-project with npm
 
-### `npm run build`
+```bash
+  npm install my-project
+  cd my-project
+```
+    
+## Run Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  git clone https://link-to-project
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##Go to the project directory
 
-### `npm run eject`
+```bash
+  cd my-project
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+##Start the server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  npm run start
+```
 
-## Learn More
+## Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##To deploy this project run
 
-### Code Splitting
+```bash
+  npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## API Reference
 
-### Analyzing the Bundle Size
+#### Get all character
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```http
+https://rickandmortyapi.com/api/character/
+```
 
-### Making a Progressive Web App
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### Get item
 
-### Advanced Configuration
+```http
+ "https://rickandmortyapi.com/api/character/?page=20",
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Color Reference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#222831](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
+| Example Color | ![#EEEEEE](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
+| Example Color | ![#00ADB5](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
+
+
+
