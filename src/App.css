@@ -1,38 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap');
 .App {
   text-align: center;
+  background-color:#222831 !important ;
+}
+html{
+  background-color: #222831 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif !important;
+  color: #222831 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+  font-weight: 800 !important;
+  color: #EEEEEE !important;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h3{
+  font-weight: 700 !important ;
+}
+
+h6{
+  font-weight: 700 !important ;
+}
+
+.maindiv{
+  margin-top: 100px !important;
+}
+
+.card-horizontal {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex: 1 1 auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 800px) {
+  .card-horizontal{
+    display: inline !important;
   }
 }
